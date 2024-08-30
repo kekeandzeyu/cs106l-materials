@@ -1,6 +1,16 @@
-TODO: Delete this line and answer the short questions in the assignment within this file!
-1. 
+1. Tradeoffs between ordered and unordered sets:
 
-2.
+Ordered sets: Elements are stored in a sorted order, allowing for efficient range-based operations (like finding elements within a specific range). However, insertion and deletion operations can be slower due to the need to maintain the sorted order.
 
-3.
+Unordered sets: Elements are stored based on their hash values, allowing for very fast insertion, deletion, and lookup operations on average. However, they don't maintain a sorted order and range-based operations are not efficient.
+2. 
+size_t hash_name(const std::string& name) {
+    size_t hash_val = 0;
+    for (char c : name) {
+        hash_val = (hash_val * 31) + c; 
+    }
+    return hash_val;
+}
+3. Container adaptors like std::queue and std::stack are class templates that provide a specific interface (e.g., FIFO for queue, LIFO for stack) using an underlying container as the backend. By default, std::queue uses std::deque as its default container. If you change it to std::list or std::vector, the underlying implementation changes, affecting performance characteristics. For example, std::vector may be faster for random access but slower for insertions/deletions at the front, while std::list is efficient for insertions/deletions anywhere but slower for random access. C++ developers provide this option to allow flexibility in choosing the best underlying container based on the specific needs of the application.
+
+4. Storing pointers to names in the queue instead of the names themselves is more efficient in terms of memory and time because it avoids copying the entire string for each element in the queue. It also allows the queue to reflect changes made to the original names in the set. However, if the original set goes out of scope and the pointers are referenced, it leads to dangling pointers, which can cause undefined behavior and program crashes. In this specific problem, the set remains in scope throughout the execution, so it's not an issue, but it's important to be aware of this potential problem when using pointers.

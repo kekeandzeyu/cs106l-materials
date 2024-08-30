@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/kekea/Desktop/Stanford-CS106L-Study-Materials/MarriagePact/marriagepact/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++23 -o CMakeFiles\\MarriagePact.dir\\main.cpp.obj -c C:\\Users\\kekea\\Desktop\\Stanford-CS106L-Study-Materials\\MarriagePact\\marriagepact\\main.cpp",
+  "file": "C:/Users/kekea/Desktop/Stanford-CS106L-Study-Materials/MarriagePact/marriagepact/main.cpp",
+  "output": "CMakeFiles/MarriagePact.dir/main.cpp.obj"
+}
+]

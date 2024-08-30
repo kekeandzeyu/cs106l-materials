@@ -1,0 +1,3 @@
+C:/Users/kekea/Desktop/Stanford-CS106L-Study-Materials/MarriagePact/marriagepact/build/CMakeFiles/MarriagePact.dir
+C:/Users/kekea/Desktop/Stanford-CS106L-Study-Materials/MarriagePact/marriagepact/build/CMakeFiles/edit_cache.dir
+C:/Users/kekea/Desktop/Stanford-CS106L-Study-Materials/MarriagePact/marriagepact/build/CMakeFiles/rebuild_cache.dir
