@@ -5,11 +5,15 @@ CONFIG += no_include_pwd
 CONFIG += c++1z console
 CONFIG -= app_bundle
 
-SOURCES += $$PWD/src/*.cpp
-SOURCES += $$PWD/src/*.h
-HEADERS += $$PWD/src/*.h
+# Explicitly list source and header files
+SOURCES += \
+    src/main.cpp \
+    src/SimpleGraph.cpp
 
-# set up flags for the compiler and Stanford C++ libraries
+HEADERS += \
+    src/SimpleGraph.h
+
+# Set up flags for the compiler and Stanford C++ libraries
 QMAKE_CXXFLAGS += -std=c++1z \
     -Wall \
     -Wextra \
