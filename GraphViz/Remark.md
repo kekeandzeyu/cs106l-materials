@@ -4,7 +4,7 @@
 
 In this assignment, professors provide a template folder for students to visualize graph. However, using the original scaffolding 
 in Qt Creator, there will always be some issues with fstream and file name typing. In addition, personally I prefer CLion than Qt 
-Creator. Thus, I made changes to the original files to make it suitable for CLion.
+Creator. Thus, I made changes to the original files to make it suitable for CLion, and provide it in the GraphViz_diysample folder.
 
 ## 2 Changes to notice
 
