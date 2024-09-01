@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "GraphViz",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "GraphViz::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-GraphViz-Debug-3e67693ac2ce6b5b8266.json",
+					"name" : "GraphViz",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "GraphViz_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-GraphViz_autogen-Debug-aa553d5e74abd207f8d2.json",
+					"name" : "GraphViz_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "GraphViz_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-GraphViz_autogen_timestamp_deps-Debug-1d83fc234857d2c9ddfc.json",
+					"name" : "GraphViz_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/kekea/Desktop/GraphViz/GraphViz/cmake-build-debug",
+		"source" : "C:/Users/kekea/Desktop/GraphViz/GraphViz"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
